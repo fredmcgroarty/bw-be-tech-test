@@ -59,6 +59,8 @@ RSpec.configure do |config|
     end
   end
 
+  config.filter_run_when_matching :focus
+
   config.before(:each) do
     DatabaseCleaner.start
   end

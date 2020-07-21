@@ -1,5 +1,7 @@
 FactoryBot.define do
   factory :order_type do
+    name { 'Standard delivery' }
+    max_deliveries { [1, 3].sample }
     trait :single_delivery do
       name { 'Single delivery' }
       max_deliveries { 1 }
