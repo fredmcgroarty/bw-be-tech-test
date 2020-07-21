@@ -1,4 +1,5 @@
 class Order < ApplicationRecord
+  enum state: { billed: 'billed', complete: 'complete' }
   belongs_to :bouquet
   belongs_to :order_type
   belongs_to :shipping_option

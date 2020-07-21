@@ -1,5 +1,7 @@
 FactoryBot.define do
   factory :shipping_option do
+    sequence(:name) { |n| "shipping option name #{n}" }
+    price { [0, 2.5].sample } 
     trait :free do
       name { 'Free shipping' }
       price { 0 }
