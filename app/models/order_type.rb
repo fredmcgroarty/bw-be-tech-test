@@ -1,7 +1,7 @@
 class OrderType < ApplicationRecord
   include Selectable
 
-  validates :name, presence: true
+  validates :name, :max_deliveries, presence: true
 
   def to_s
     name
