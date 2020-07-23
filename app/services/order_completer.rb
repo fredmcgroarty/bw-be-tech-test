@@ -18,6 +18,6 @@ class OrderCompleter
   attr_reader :order
 
   def complete?
-    order.deliveries.count == order.order_type.max_deliveries 
+    order.deliveries.count == order.max_deliveries 
   end 
 end
