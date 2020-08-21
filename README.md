@@ -1,11 +1,3 @@
-# Bloom & Wild Backend Test
-
-Hello and welcome to the Bloom & Wild coding exercise!
-
-Please read through the introduction below and complete the Tasks.
-
-When you have finished please raise a PR and email gideon@bloomandwild.com. If you have any questions along the way feel free to drop her an email too.
-
 ## Introduction
 
 In this exercise you will be building a backend system to process customer orders and provide data to frontend clients via an API.
@@ -28,10 +20,6 @@ For the purposes of this exercise, we are not concerned with delivery addresses.
 
 You are welcome to change any part of the existing skeleton app if your solution requires it.
 
-## Getting started
-
-Once you've got this skeleton rails app up and running visit http://localhost:3000 and use the simple UI to create an order. Remember to seed the database first.
-
 ## Tasks
 
 1. Add a rake task called "shipping".
@@ -50,6 +38,3 @@ Once you've got this skeleton rails app up and running visit http://localhost:30
    * You are welcome to choose the format / build it yourself or use any gem to solve the problem.
 
 
-## Discussion
-
-How might you improve the architecture of the code? Specifically what might happen if the application were to die mid way through rake task and what will happen as complexity increases.
